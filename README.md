@@ -43,7 +43,7 @@ cd AI_optimization_project
 Run the main script:
 
 ```bash
-python test.py
+python main.py
 ```
 
 The program will:
