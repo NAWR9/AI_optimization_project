@@ -1,0 +1,20 @@
+Project Instance format
+-------------------
+
+There are 2 files represent two problem instances:
+* Sparse82 - an instance with n = 80
+* RanReal240 - 20 RanReal instances with n = 240
+
+The format of the files is:
+
+The first line has the following fields separated with spaces:
+* M: Integer indicating the number of elements
+* C: Integer indicating the number of clusters
+* Cluster limits: Lower and upper limits of each cluster
+* Centinel: Letter "W", it has no sense, it is used only as separator
+* Node weights: The weight of each node
+
+The following lines contain the edges weight (which represent for example distance between elements) with
+the format: elementA elementB edge_weight
+
+
